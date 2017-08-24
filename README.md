@@ -1,6 +1,8 @@
 
 # react-native-network-mapper
 
+This is a WIP package, refrain from using unless a proper release happens
+
 ## Getting started
 
 `$ npm install react-native-network-mapper --save`
@@ -21,7 +23,7 @@
 
 #### Android
 
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
+1. Open up `android/app/src/main/java/[...]/MainApplication.java`
   - Add `import com.psychapps.RNNetworkMapperPackage;` to the imports at the top of the file
   - Add `new RNNetworkMapperPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
