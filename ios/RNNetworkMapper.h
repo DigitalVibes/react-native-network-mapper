@@ -5,7 +5,7 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-#import "MMLanScanner.h"
+#import "MMLANScanner.h"
 #import "MMDevice.h"
 
 @interface RNNetworkMapper : NSObject <RCTBridgeModule, MMLANScannerDelegate>

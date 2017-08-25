@@ -19,6 +19,6 @@
   "dependencies": {
     "react": "16.0.0-alpha.12",
     "react-native": "^0.47.0",
-    "react-native-network-mapper": "0.0.2"
+    "react-native-network-mapper": ".."
   }
 }
