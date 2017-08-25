@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188A9A52EE9808322E71F10B7114AE51 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1370358E87A0FC9CE06CD862EF6EF /* SimplePing.m */; };
+		27DB34560174F30DF290B50114E932F5 /* if_arp.h in Headers */ = {isa = PBXBuildFile; fileRef = E0652A410CBDDF40903E659834B30D77 /* if_arp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2898DB4F0C38B94E018DD65EA671DE6A /* PingOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F4FF0E9EBF5284009CEB390FF837B6 /* PingOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A39C91902E75C976D6FE76FCC7AC5EE /* MacFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C1BCDD9D1A9AF2F2AE569D08157CB9 /* MacFinder.m */; };
+		4F5BF8E9EC40E95DFB13F781E4E4625A /* MMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DF6FCA37CFCAB209E1A51A2F4746B1 /* MMDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CFB64D477252E976303E392B4850CC0 /* if_ether.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7E0B2E2A0DF6CBB2854CA721024059 /* if_ether.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74EE14087E6C09BFFE4B0DF4124B4C9A /* MMLANScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FE2DECD337C75A1D8AB82F8DB8CF86 /* MMLANScanner.m */; };
+		81928D5AF381D2BE075630B40DAD6252 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4D2802F200DBBD41D06BD4A8FE643B /* route.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BF467AD1F7F5584FC6D48994597D39 /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F99704D8586BEDA3EFEFE993CB6769D9 /* NetworkCalculator.m */; };
+		83F84220A2F2433C503380C349163E2C /* MACOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB53EC184D881E7B403B414F740E16A /* MACOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		928B60B81A6A75897D4DE67285765DDD /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B83A546B7DE8F9261B5AAA6BA702161A /* PingOperation.m */; };
+		934290CCB639B6E7DAC256807DE43822 /* MMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5CE4B3AE55EFF48DE7B1458948E4F /* MMDevice.m */; };
+		93512C38B8FB1B9AA9C52EF7CF7B5E23 /* MMLANScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 040D28DE2C02615DE7773E1FDFB663F1 /* MMLANScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC42FF8C99711AE861B0EE9B2694420 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C1854CE47B396C27695DD9E4A6A375 /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED893004663EF7029A20959B4395522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D2A2501C3A2E03846AFF27DC7D93D938 /* MMLanScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBC70D2579DA7FFCD0D524E34D4A6F /* MMLanScan-dummy.m */; };
+		D595A663FAD505A56902153AC8879D00 /* LANProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C31E31D19DED999BF50E93572A529B56 /* LANProperties.m */; };
+		D6C928484DEF7C73235A216778837800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E24045868299E9EEDA4694531A643DE1 /* LANProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBFBEF167BCB10F2C08D330388A0050 /* LANProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1986750AAF7A93171618878719556F4 /* NetworkCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = E85F2127A4C1F2500EE9D64AA6271784 /* NetworkCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1E9A19F839A581262CA815CD4AA7275 /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEC220B8322ED78396B27FF58866B2 /* MACOperation.m */; };
+		F63D10FC72DDE18FCFC13D8FE5EE22AB /* MacFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3840A9942B73DAC79CB298A671E8E55E /* MacFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5616EA0F6E3319280BE44BBDFA4187 /* Pods-RNNetworkMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C2446E02C7C24A3CB77F5371F4C504 /* Pods-RNNetworkMapper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50950EC8A23BF0C8DCF3DB8745569E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ED101C12E8A79CAEDFA3167915CE94A;
+			remoteInfo = MMLanScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CEC220B8322ED78396B27FF58866B2 /* MACOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MACOperation.m; path = MMLanScan/Misc/MACOperation.m; sourceTree = "<group>"; };
+		0372A5627358286508311100FC2931F3 /* Pods-RNNetworkMapper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNNetworkMapper-frameworks.sh"; sourceTree = "<group>"; };
+		040D28DE2C02615DE7773E1FDFB663F1 /* MMLANScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMLANScanner.h; path = MMLanScan/Misc/MMLANScanner.h; sourceTree = "<group>"; };
+		063B91E5DAFCA6D1449FD0A4D0C68574 /* libMMLanScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMMLanScan.a; path = libMMLanScan.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A01F8B54925311D002B773593C74C8E /* libPods-RNNetworkMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RNNetworkMapper.a"; path = "libPods-RNNetworkMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8471F05BAB83D8FD2583E64F620A97 /* Pods-RNNetworkMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNNetworkMapper.release.xcconfig"; sourceTree = "<group>"; };
+		142E21DE8A0172C2F2883DA150FA94D7 /* Pods-RNNetworkMapper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNNetworkMapper-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DA5CE4B3AE55EFF48DE7B1458948E4F /* MMDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDevice.m; path = MMLanScan/Objects/MMDevice.m; sourceTree = "<group>"; };
+		1E925750AAEFD86E6A0D4797B2DFC72B /* MMLanScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMLanScan-prefix.pch"; sourceTree = "<group>"; };
+		37C2446E02C7C24A3CB77F5371F4C504 /* Pods-RNNetworkMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNNetworkMapper-dummy.m"; sourceTree = "<group>"; };
+		3840A9942B73DAC79CB298A671E8E55E /* MacFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacFinder.h; path = "MMLanScan/External Libs/MacFinder/MacFinder.h"; sourceTree = "<group>"; };
+		3DFBC70D2579DA7FFCD0D524E34D4A6F /* MMLanScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMLanScan-dummy.m"; sourceTree = "<group>"; };
+		40085122B112266DF70862D539FDB5F3 /* MMLanScan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMLanScan.xcconfig; sourceTree = "<group>"; };
+		43C1854CE47B396C27695DD9E4A6A375 /* SimplePing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimplePing.h; path = "MMLanScan/External Libs/SimplePing/SimplePing.h"; sourceTree = "<group>"; };
+		49820BC2D0D87CDF984224A6AFAB57D3 /* Pods-RNNetworkMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNNetworkMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		50D281DFCD1945B2E81476E888CEF458 /* data.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = data.plist; path = MMLanScan/Data/data.plist; sourceTree = "<group>"; };
+		52F4FF0E9EBF5284009CEB390FF837B6 /* PingOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingOperation.h; path = MMLanScan/Misc/PingOperation.h; sourceTree = "<group>"; };
+		73EA6522E549E959FCA47E479F5C1BED /* Pods-RNNetworkMapper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNNetworkMapper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89C1BCDD9D1A9AF2F2AE569D08157CB9 /* MacFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MacFinder.m; path = "MMLanScan/External Libs/MacFinder/MacFinder.m"; sourceTree = "<group>"; };
+		936390A86CB5D8100885F4EB00BEAED8 /* Pods-RNNetworkMapper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNNetworkMapper-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95FE2DECD337C75A1D8AB82F8DB8CF86 /* MMLANScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMLANScanner.m; path = MMLanScan/Misc/MMLANScanner.m; sourceTree = "<group>"; };
+		B6DF6FCA37CFCAB209E1A51A2F4746B1 /* MMDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDevice.h; path = MMLanScan/Objects/MMDevice.h; sourceTree = "<group>"; };
+		B83A546B7DE8F9261B5AAA6BA702161A /* PingOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingOperation.m; path = MMLanScan/Misc/PingOperation.m; sourceTree = "<group>"; };
+		C31E31D19DED999BF50E93572A529B56 /* LANProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LANProperties.m; path = MMLanScan/Misc/LANProperties.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA4D2802F200DBBD41D06BD4A8FE643B /* route.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = route.h; path = "MMLanScan/External Libs/MacFinder/Network Headers/route.h"; sourceTree = "<group>"; };
+		DCF1370358E87A0FC9CE06CD862EF6EF /* SimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimplePing.m; path = "MMLanScan/External Libs/SimplePing/SimplePing.m"; sourceTree = "<group>"; };
+		E0652A410CBDDF40903E659834B30D77 /* if_arp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_arp.h; path = "MMLanScan/External Libs/MacFinder/Network Headers/if_arp.h"; sourceTree = "<group>"; };
+		E85F2127A4C1F2500EE9D64AA6271784 /* NetworkCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkCalculator.h; path = MMLanScan/Misc/NetworkCalculator.h; sourceTree = "<group>"; };
+		EDB53EC184D881E7B403B414F740E16A /* MACOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACOperation.h; path = MMLanScan/Misc/MACOperation.h; sourceTree = "<group>"; };
+		EE7E0B2E2A0DF6CBB2854CA721024059 /* if_ether.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_ether.h; path = "MMLanScan/External Libs/MacFinder/Network Headers/if_ether.h"; sourceTree = "<group>"; };
+		F99704D8586BEDA3EFEFE993CB6769D9 /* NetworkCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkCalculator.m; path = MMLanScan/Misc/NetworkCalculator.m; sourceTree = "<group>"; };
+		FBBFBEF167BCB10F2C08D330388A0050 /* LANProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LANProperties.h; path = MMLanScan/Misc/LANProperties.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F906E79C93C84F7C40F724B470D68B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C928484DEF7C73235A216778837800 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AD143CB5090E7C7459705F4BD3B0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED893004663EF7029A20959B4395522 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECDF4BDB344B08669278EFCC879DDA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50D281DFCD1945B2E81476E888CEF458 /* data.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		65DE993C2EA2A1E2E85F7ED468DCDF63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B11DF31FA32FB37451911526B03E9 /* MMLanScan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				65DE993C2EA2A1E2E85F7ED468DCDF63 /* Pods */,
+				D748F1C06B6E33F4843E9CCD7C48CF97 /* Products */,
+				D107B4AC6E8672A3AEB2D27F3C981FD5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBBC995924A6B12D0684992AF2F8B64D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40085122B112266DF70862D539FDB5F3 /* MMLanScan.xcconfig */,
+				3DFBC70D2579DA7FFCD0D524E34D4A6F /* MMLanScan-dummy.m */,
+				1E925750AAEFD86E6A0D4797B2DFC72B /* MMLanScan-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMLanScan";
+			sourceTree = "<group>";
+		};
+		D107B4AC6E8672A3AEB2D27F3C981FD5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49E4DDF7F6671F7463B97ECA0AFB643 /* Pods-RNNetworkMapper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D748F1C06B6E33F4843E9CCD7C48CF97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063B91E5DAFCA6D1449FD0A4D0C68574 /* libMMLanScan.a */,
+				0A01F8B54925311D002B773593C74C8E /* libPods-RNNetworkMapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49E4DDF7F6671F7463B97ECA0AFB643 /* Pods-RNNetworkMapper */ = {
+			isa = PBXGroup;
+			children = (
+				73EA6522E549E959FCA47E479F5C1BED /* Pods-RNNetworkMapper-acknowledgements.markdown */,
+				142E21DE8A0172C2F2883DA150FA94D7 /* Pods-RNNetworkMapper-acknowledgements.plist */,
+				37C2446E02C7C24A3CB77F5371F4C504 /* Pods-RNNetworkMapper-dummy.m */,
+				0372A5627358286508311100FC2931F3 /* Pods-RNNetworkMapper-frameworks.sh */,
+				936390A86CB5D8100885F4EB00BEAED8 /* Pods-RNNetworkMapper-resources.sh */,
+				49820BC2D0D87CDF984224A6AFAB57D3 /* Pods-RNNetworkMapper.debug.xcconfig */,
+				0F8471F05BAB83D8FD2583E64F620A97 /* Pods-RNNetworkMapper.release.xcconfig */,
+			);
+			name = "Pods-RNNetworkMapper";
+			path = "Target Support Files/Pods-RNNetworkMapper";
+			sourceTree = "<group>";
+		};
+		FF8B11DF31FA32FB37451911526B03E9 /* MMLanScan */ = {
+			isa = PBXGroup;
+			children = (
+				E0652A410CBDDF40903E659834B30D77 /* if_arp.h */,
+				EE7E0B2E2A0DF6CBB2854CA721024059 /* if_ether.h */,
+				FBBFBEF167BCB10F2C08D330388A0050 /* LANProperties.h */,
+				C31E31D19DED999BF50E93572A529B56 /* LANProperties.m */,
+				3840A9942B73DAC79CB298A671E8E55E /* MacFinder.h */,
+				89C1BCDD9D1A9AF2F2AE569D08157CB9 /* MacFinder.m */,
+				EDB53EC184D881E7B403B414F740E16A /* MACOperation.h */,
+				00CEC220B8322ED78396B27FF58866B2 /* MACOperation.m */,
+				B6DF6FCA37CFCAB209E1A51A2F4746B1 /* MMDevice.h */,
+				1DA5CE4B3AE55EFF48DE7B1458948E4F /* MMDevice.m */,
+				040D28DE2C02615DE7773E1FDFB663F1 /* MMLANScanner.h */,
+				95FE2DECD337C75A1D8AB82F8DB8CF86 /* MMLANScanner.m */,
+				E85F2127A4C1F2500EE9D64AA6271784 /* NetworkCalculator.h */,
+				F99704D8586BEDA3EFEFE993CB6769D9 /* NetworkCalculator.m */,
+				52F4FF0E9EBF5284009CEB390FF837B6 /* PingOperation.h */,
+				B83A546B7DE8F9261B5AAA6BA702161A /* PingOperation.m */,
+				DA4D2802F200DBBD41D06BD4A8FE643B /* route.h */,
+				43C1854CE47B396C27695DD9E4A6A375 /* SimplePing.h */,
+				DCF1370358E87A0FC9CE06CD862EF6EF /* SimplePing.m */,
+				2ECDF4BDB344B08669278EFCC879DDA0 /* Resources */,
+				CBBC995924A6B12D0684992AF2F8B64D /* Support Files */,
+			);
+			name = MMLanScan;
+			path = MMLanScan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8853130A6A01AE80556205D8640FB5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DB34560174F30DF290B50114E932F5 /* if_arp.h in Headers */,
+				6CFB64D477252E976303E392B4850CC0 /* if_ether.h in Headers */,
+				E24045868299E9EEDA4694531A643DE1 /* LANProperties.h in Headers */,
+				F63D10FC72DDE18FCFC13D8FE5EE22AB /* MacFinder.h in Headers */,
+				83F84220A2F2433C503380C349163E2C /* MACOperation.h in Headers */,
+				4F5BF8E9EC40E95DFB13F781E4E4625A /* MMDevice.h in Headers */,
+				93512C38B8FB1B9AA9C52EF7CF7B5E23 /* MMLANScanner.h in Headers */,
+				F1986750AAF7A93171618878719556F4 /* NetworkCalculator.h in Headers */,
+				2898DB4F0C38B94E018DD65EA671DE6A /* PingOperation.h in Headers */,
+				81928D5AF381D2BE075630B40DAD6252 /* route.h in Headers */,
+				9CC42FF8C99711AE861B0EE9B2694420 /* SimplePing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		069D2EBBBF4737C572B16B3FFD073C77 /* Pods-RNNetworkMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545C6648A7697D302CC319F1B52C289C /* Build configuration list for PBXNativeTarget "Pods-RNNetworkMapper" */;
+			buildPhases = (
+				8E95A07FA820B988EC89FEB152176F4A /* Sources */,
+				6F906E79C93C84F7C40F724B470D68B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0179D9E137822F0D942E8C86B4487CEE /* PBXTargetDependency */,
+			);
+			name = "Pods-RNNetworkMapper";
+			productName = "Pods-RNNetworkMapper";
+			productReference = 0A01F8B54925311D002B773593C74C8E /* libPods-RNNetworkMapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7ED101C12E8A79CAEDFA3167915CE94A /* MMLanScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22886D9C520DB1E5BEC239153168FA2D /* Build configuration list for PBXNativeTarget "MMLanScan" */;
+			buildPhases = (
+				0CBF73B6CC5DBFEF364375D82B255014 /* Sources */,
+				97AD143CB5090E7C7459705F4BD3B0B7 /* Frameworks */,
+				B8853130A6A01AE80556205D8640FB5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMLanScan;
+			productName = MMLanScan;
+			productReference = 063B91E5DAFCA6D1449FD0A4D0C68574 /* libMMLanScan.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D748F1C06B6E33F4843E9CCD7C48CF97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ED101C12E8A79CAEDFA3167915CE94A /* MMLanScan */,
+				069D2EBBBF4737C572B16B3FFD073C77 /* Pods-RNNetworkMapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CBF73B6CC5DBFEF364375D82B255014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D595A663FAD505A56902153AC8879D00 /* LANProperties.m in Sources */,
+				3A39C91902E75C976D6FE76FCC7AC5EE /* MacFinder.m in Sources */,
+				F1E9A19F839A581262CA815CD4AA7275 /* MACOperation.m in Sources */,
+				934290CCB639B6E7DAC256807DE43822 /* MMDevice.m in Sources */,
+				D2A2501C3A2E03846AFF27DC7D93D938 /* MMLanScan-dummy.m in Sources */,
+				74EE14087E6C09BFFE4B0DF4124B4C9A /* MMLANScanner.m in Sources */,
+				83BF467AD1F7F5584FC6D48994597D39 /* NetworkCalculator.m in Sources */,
+				928B60B81A6A75897D4DE67285765DDD /* PingOperation.m in Sources */,
+				188A9A52EE9808322E71F10B7114AE51 /* SimplePing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E95A07FA820B988EC89FEB152176F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5616EA0F6E3319280BE44BBDFA4187 /* Pods-RNNetworkMapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0179D9E137822F0D942E8C86B4487CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMLanScan;
+			target = 7ED101C12E8A79CAEDFA3167915CE94A /* MMLanScan */;
+			targetProxy = A50950EC8A23BF0C8DCF3DB8745569E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EA7FDAC73BE612DC886065479F126C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49820BC2D0D87CDF984224A6AFAB57D3 /* Pods-RNNetworkMapper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38430E0A6CF3383CC6FACC0F629AAB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8471F05BAB83D8FD2583E64F620A97 /* Pods-RNNetworkMapper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B6C48D6F01FC9F7F51DB6E3BE2F0C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40085122B112266DF70862D539FDB5F3 /* MMLanScan.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMLanScan/MMLanScan-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD7EBA5B7FB592D16F1AE32C794F396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40085122B112266DF70862D539FDB5F3 /* MMLanScan.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMLanScan/MMLanScan-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22886D9C520DB1E5BEC239153168FA2D /* Build configuration list for PBXNativeTarget "MMLanScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD7EBA5B7FB592D16F1AE32C794F396 /* Debug */,
+				8B6C48D6F01FC9F7F51DB6E3BE2F0C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545C6648A7697D302CC319F1B52C289C /* Build configuration list for PBXNativeTarget "Pods-RNNetworkMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA7FDAC73BE612DC886065479F126C4 /* Debug */,
+				38430E0A6CF3383CC6FACC0F629AAB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

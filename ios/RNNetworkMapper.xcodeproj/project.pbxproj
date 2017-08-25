@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNNetworkMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNNetworkMapper.m */; };
+		B901CD175DEAFE520A9CB3A9 /* libPods-RNNetworkMapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB909117D90F1A3699B4D17 /* libPods-RNNetworkMapper.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNNetworkMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNNetworkMapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BBA7FAD272B05E3DC81ECC /* Pods-RNNetworkMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNetworkMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNNetworkMapper/Pods-RNNetworkMapper.release.xcconfig"; sourceTree = "<group>"; };
+		77A157DB13D17423BD8D7A86 /* Pods-RNNetworkMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNetworkMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNNetworkMapper/Pods-RNNetworkMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB909117D90F1A3699B4D17 /* libPods-RNNetworkMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNetworkMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNNetworkMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNetworkMapper.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNNetworkMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNetworkMapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B901CD175DEAFE520A9CB3A9 /* libPods-RNNetworkMapper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +58,26 @@
 				B3E7B5881CC2AC0600A0062D /* RNNetworkMapper.h */,
 				B3E7B5891CC2AC0600A0062D /* RNNetworkMapper.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				A49C898474042716445417D5 /* Pods */,
+				5E82D6A11DF08C0527937398 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		5E82D6A11DF08C0527937398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB909117D90F1A3699B4D17 /* libPods-RNNetworkMapper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A49C898474042716445417D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A157DB13D17423BD8D7A86 /* Pods-RNNetworkMapper.debug.xcconfig */,
+				68BBA7FAD272B05E3DC81ECC /* Pods-RNNetworkMapper.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,9 +87,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNNetworkMapper" */;
 			buildPhases = (
+				5C8EB2450530B018BE070E94 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
+				AADB813A0E0A3568A3FF773D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -106,6 +132,39 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C8EB2450530B018BE070E94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AADB813A0E0A3568A3FF773D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNNetworkMapper/Pods-RNNetworkMapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -195,9 +254,10 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A157DB13D17423BD8D7A86 /* Pods-RNNetworkMapper.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
@@ -211,6 +271,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BBA7FAD272B05E3DC81ECC /* Pods-RNNetworkMapper.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
